@@ -1,0 +1,25 @@
+Spring boot:
+
+Makes using Spring framework easier.
+Gives production ready applications.
+does all the configurations and provides an inbuilt server.
+
+MAVEN is a tool for building and managing any java based project.
+
+dependency injection:
+Injects the object into our application.
+
+Spring container creation = context line.
+inside spring container the objects are called as beans.
+pojo - plain old java object
+to make a regular object as a springboot object use @Component.We can also give custom names to the component.
+
+@Scope - Singleton,Prototype
+
+singleton - only one object will be created despite we require it or not.
+In prototype - no default obj creation.Requested no.of objects will be created.
+
+Using autowired - a class can search for another class's object in the spring container(searches by type)
+Using @Qualifier - search by name.
+
+For doing any manual configurations use applications.properties file under resources folder.
